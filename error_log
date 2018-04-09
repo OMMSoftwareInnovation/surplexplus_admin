@@ -1,0 +1,6 @@
+[13-Feb-2018 06:39:34 America/Chicago] PHP Fatal error:  Call to undefined method Productcontroller::login() in /home/surplexplus/public_html/surplexplus/surplexplusadmin/application/controllers/Productcontroller.php on line 97
+[13-Feb-2018 06:43:20 America/Chicago] PHP Fatal error:  Call to undefined method Productcontroller::login() in /home/surplexplus/public_html/surplexplus/surplexplusadmin/application/controllers/Productcontroller.php on line 113
+[13-Feb-2018 06:43:46 America/Chicago] PHP Fatal error:  Call to undefined method Productcontroller::login() in /home/surplexplus/public_html/surplexplus/surplexplusadmin/application/controllers/Productcontroller.php on line 20
+[13-Feb-2018 06:48:28 America/Chicago] PHP Fatal error:  Call to undefined method Productcontroller::login() in /home/surplexplus/public_html/surplexplus/surplexplusadmin/application/controllers/Productcontroller.php on line 51
+[05-Mar-2018 07:27:30 America/Chicago] PHP Fatal error:  Call to undefined method Productcontroller::login() in /home/surplexplus/public_html/surplexplus/surplexplusadmin/application/controllers/Productcontroller.php on line 97
+[05-Mar-2018 07:27:33 America/Chicago] PHP Fatal error:  Call to undefined method Productcontroller::login() in /home/surplexplus/public_html/surplexplus/surplexplusadmin/application/controllers/Productcontroller.php on line 20
