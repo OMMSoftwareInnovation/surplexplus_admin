@@ -59,7 +59,7 @@
                   <td style="border-left: 1px solid #ddd;"><?php echo $cnt; ?></td>
                   <td><?php echo $order[$i]['order_id']; ?></td>
                   <td>
-                    <img src="http://www.surplexplus.com/surplexplus/surplexplus/files/thumbnail/<?php echo $order[$i]['product_main_img']; ?>" style="width: 100px;height: 100px;">
+                    <img src="http://localhost/surplex1/files/thumbnail/<?php echo $order[$i]['product_main_img']; ?>" style="width: 100px;height: 100px;">
                   </td>
                   <td><?php echo $order[$i]['product_name']; ?></td>
                   <td><?php echo $order[$i]['seller_name']; ?></td>

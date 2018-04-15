@@ -42,7 +42,7 @@
                 <tr>
                   <td><?php echo $cnt; ?></td>
                   <td>
-                    <img src="http://www.surplexplus.com/surplexplus/surplexplus/<?php echo $auctions[$i]['auction_image']; ?>" style="width: 150px;height: 100px;">
+                    <img src="http://localhost/surplex1/<?php echo $auctions[$i]['auction_image']; ?>" style="width: 150px;height: 100px;">
                   </td>
                   <td class="text-center"><?php echo $auctions[$i]['total']; ?></td>
                   <td>
