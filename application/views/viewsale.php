@@ -40,7 +40,7 @@
             ?>
                 <tr>
                   <td><?php echo $sale[$i]['order_id']; ?></td>
-                  <td><img src="http://www.surplexplus.com/surplexplus/surplexplus/files/thumbnail/<?php echo $sale[$i]['product_main_img']?>" style="width: 150px;height: 100px;"></td>
+                  <td><img src="http://localhost/surplex1/files/thumbnail/<?php echo $sale[$i]['product_main_img']?>" style="width: 150px;height: 100px;"></td>
                   <td><?php echo $sale[$i]['product_name']; ?></td>
                   <td><?php echo $sale[$i]['buyer_name']; ?></td>
                   <td><?php echo $sale[$i]['seller_name']; ?></td>

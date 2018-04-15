@@ -21,7 +21,7 @@ class Productcontroller extends CI_Controller {
 		}
 		else
 		{
-			$productdata['product'] = $this->productmodel->activeproducts();
+			$productdata['product']=$this->productmodel->activeproducts();
 			//print_r($productdata['product']); die();
 
 			$this->load->view('header');

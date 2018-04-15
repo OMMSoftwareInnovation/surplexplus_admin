@@ -44,7 +44,7 @@ echo $notify;
               ?>
                 <tr>
                   <td align="center"><?php echo $cnt; ?></td>
-                  <td align="center"><img src="http://www.surplexplus.com/surplexplus/surplexplus/files/thumbnail/<?php echo $product[$i]['product_main_img']; ?>" style=" width: 150px;height: 100px;"></td>
+                  <td align="center"><img src="http://localhost/surplex1/files/thumbnail/<?php echo $product[$i]['product_main_img']; ?>" style=" width: 150px;height: 100px;"></td>
                   <td align="center"><?php echo $product[$i]['product_name']; ?></td>
                   <td align="center"><?php echo $product[$i]['product_price']; ?></td>
                   <td align="center">

@@ -23,9 +23,9 @@
               <table id="example1" class="table table-bordered table-striped">
                 <thead>
                 <tr>
-                  <th style="width: 32px;text-align: center;">SNo.</th>
+                  <th style="width: 62px;text-align: center;">Serial No.</th>
                   <th style="width: 75px;text-align: center;">Image</th>
-                  <th style="text-align: left;">Name</th>
+                  <th style="text-align: center;">Name</th>
                   <th style="width: 75px;text-align: center;">Seller</th>
                   <th style="width: 75px;text-align: center;">Company</th>
                 </tr>
@@ -38,8 +38,8 @@
               ?>
                 <tr>
                   <td align="center"><?php echo $cnt; ?></td>
-                  <td align="center"><img src="http://localhost/surplexplus/surplexplus/files/thumbnail/<?php echo $product[$i]['product_main_img']; ?>" style=" width: 50px;height: 50px;"></td>
-                  <td align="left"><a href="<?php echo site_url('productcontroller/productdetail');?>/<?php echo $product[$i]['product_id']; ?>"><?php echo $product[$i]['product_name']; ?></a></td>
+                  <td align="center"><img src="http://localhost/surplex1/files/thumbnail/<?php echo $product[$i]['product_main_img']; ?>" style=" width: 150px;height: 100px;"></td>
+                  <td align="center"><a href="<?php echo site_url('productcontroller/productdetail');?>/<?php echo $product[$i]['product_id']; ?>"><?php echo $product[$i]['product_name']; ?></a></td>
                   <td align="center"><?php echo $product[$i]['seller_name']; ?></td>
                   <td align="center"><?php echo $product[$i]['seller_company_name']; ?></td>
                 </tr>

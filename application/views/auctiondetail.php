@@ -50,7 +50,7 @@
               <div class="col-md-12">
               <i class="fa fa-picture-o margin-r-5"></i> Auction Image
               <br>
-              <img src="http://www.surplexplus.com/surplexplus/surplexplus/<?php echo $auction[0]['auction_image']; ?>" style="width: 200px;height: 150px;border: 3px solid #3c8dbc;padding: 2px;border-radius: 2px;">
+              <img src="http://localhost/surplex1/<?php echo $auction[0]['auction_image']; ?>" style="width: 200px;height: 150px;border: 3px solid #3c8dbc;padding: 2px;border-radius: 2px;">
               </div>
 
               <div class="col-md-6">
@@ -93,7 +93,7 @@
                 <tr>
                   <td><?php echo $cnt; ?></td>
                   <td>
-                    <img src="http://www.surplexplus.com/surplexplus/surplexplus/files/thumbnail/<?php echo $products[$i]['product_main_img']; ?>" alt="..." style="width: 125px;height: 80px;">
+                    <img src="http://localhost/surplex1/files/thumbnail/<?php echo $products[$i]['product_main_img']; ?>" alt="..." style="width: 125px;height: 80px;">
                   </td>
                   <td><?php echo $products[$i]['product_name']; ?></td>
                   <td>Rs.<?php echo $products[$i]['strating_bid_price']; ?></td>

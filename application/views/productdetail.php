@@ -106,7 +106,7 @@ img {
             </div>
             <!-- /.box-header -->
             <div class="box-body box-profile">
-              <img class="profile-user-img img-responsive img-circle" src="http://www.surplexplus.com/surplexplus/surplexplus/assets/sellerpanel/dist/img/user8-128x128.jpg" alt="User profile picture">
+              <img class="profile-user-img img-responsive img-circle" src="http://localhost/surplex1/assets/sellerpanel/dist/img/user8-128x128.jpg" alt="User profile picture">
 
               <h3 class="profile-username text-center"><?php echo $seller[0]['seller_name']; ?></h3>
 
@@ -192,12 +192,12 @@ img {
                         </tr>
                         <tr>
                           <td>5.</td>
-                          <td>Item Condition</td>
+                          <td>Machine Condition</td>
                           <td><?php echo $product[0]['p_machine_condition']; ?></td>
                         </tr>
                         <tr>
                           <td>6.</td>
-                          <td>Item Location</td>
+                          <td>Machine Location</td>
                           <td><?php echo $product[0]['p_machine_location']; ?></td>
                         </tr>
                         <tr>
@@ -241,7 +241,7 @@ img {
                           {
                         ?>
                           <div class="col-sm-3" style="margin-top: 10px;">
-                            <img class="img-responsive" src="http://www.surplexplus.com/surplexplus/surplexplus/files/<?php echo $img[$i] ?>"
+                            <img class="img-responsive" src="http://localhost/surplex1/files/<?php echo $img[$i] ?>"
                              style="width: 100%;max-height: 117px;"
                               alt="Photo">
                           </div>
